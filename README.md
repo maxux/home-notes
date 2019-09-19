@@ -1,6 +1,10 @@
 # Home Specification
 
-Everything started from this picture posted on reddit. This picture was posted on `/r/homelab` and `/r/battlestations`.
+Everything started from this picture posted on reddit.
+
+![Main Room Picture](https://i.redd.it/q3xy8gi8o0m31.jpg)
+
+This picture was posted on `/r/homelab` and `/r/battlestations`.
 There was so many positive reply and message about it, thanks you all ! And in addition, I received some many question
 about the setup, hardware list, random question, etc. I promised to write a document with the full specification.
 
@@ -9,12 +13,12 @@ stuff here seems useless to know, if it's here, it's because someone asked for i
 
 # Table of Contents
 
-1. Environment
-2. Sound System
-3. Monitoring
-4. Computing
-5. Network
-6. Miscellaneous
+1. [Environment](#environment)
+2. [Sound System](#sound-system)
+3. [Monitoring](#monitoring)
+4. [Computing](#computing)
+5. [Network](#network)
+6. [Miscellaneous](#miscellaneous)
 
 # Environment
 
@@ -216,7 +220,7 @@ I would prefer using JACK everywhere but application support is too bad for dail
 The two dashboard screen are just chromium in kiosk mode, displaying the two dashboard webpage.
 The two screens are rotated by 180° (flipped) to get the best view angle from the bottom (which is the top of the screen).
 
-To hide the cursor, I use `unclutter -idle 0`.
+To hide the cursor, I use `unclutter -idle 0`
 
 When X start (using xinit), dwm is used as manager, but actually does nothing except handling the tiling.
 
@@ -250,16 +254,15 @@ I'm running `Gentoo 17.0 ~amd64`
 The laptop is a Dell G5 5587
 
 - `Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz` (8 cores, 12 threads)
-- 16G RAM (2x `SK Hynix 8GB DDR4`)
+- `SK Hynix 8GB DDR4` x2 (16 GB)
 - `NVIDIA GeForce GTX 1060 Mobile`
 - `Intel Corporation Wireless-AC 9560`
 - `Atheros Killer E2400 Gigabit Ethernet`
-- `PC SN520 NVMe WDC 256GB`
-- `Samsung SSD 850 PRO 256G `(SATA)
+- `PC SN520 NVMe WDC 256GB` (M.2)
+- `Samsung SSD 850 PRO 256G` (SATA)
 
 I use external keyboard and mice:
-- `Das Keyboard Ultimate Model S`
-  - Cherry MX Brown
+- `Das Keyboard Ultimate Model S` (Cherry MX Brown)
 - `Logitech M510`
 
 
