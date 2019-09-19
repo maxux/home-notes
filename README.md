@@ -233,7 +233,7 @@ Class is used to send browser to the right screen using dwm config.
 static const Rule rules[] = {
     /* class      instance    title       tags mask     isfloating   monitor */
     { "dash1",    NULL,       NULL,       0,            0,            0 },
-	{ "dash2",    NULL,       NULL,       0,            0,            1 },
+    { "dash2",    NULL,       NULL,       0,            0,            1 },
 }
 ```
 
@@ -243,24 +243,24 @@ static const Rule rules[] = {
 
 ### Operating System
 
-I'm running Gentoo ~amd64
+I'm running `Gentoo 17.0 ~amd64`
 
 ### Hardware
 
 The laptop is a Dell G5 5587
 
-- Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz (8 cores, 12 threads)
-- 16G RAM (2x SK Hynix 8GB DDR4)
-- NVIDIA GeForce GTX 1060 Mobile
-- Intel Corporation Wireless-AC 9560
-- Atheros Killer E2400 Gigabit Ethernet
-- PC SN520 NVMe WDC 256GB
-- Samsung SSD 850 PRO 256G (SATA)
+- `Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz` (8 cores, 12 threads)
+- 16G RAM (2x `SK Hynix 8GB DDR4`)
+- `NVIDIA GeForce GTX 1060 Mobile`
+- `Intel Corporation Wireless-AC 9560`
+- `Atheros Killer E2400 Gigabit Ethernet`
+- `PC SN520 NVMe WDC 256GB`
+- `Samsung SSD 850 PRO 256G `(SATA)
 
 I use external keyboard and mice:
-- Das Keyboard Ultimate Model S
+- `Das Keyboard Ultimate Model S`
   - Cherry MX Brown
-- Logitech M510
+- `Logitech M510`
 
 
 ### Sceens
